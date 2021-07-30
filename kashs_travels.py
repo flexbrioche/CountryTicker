@@ -1,18 +1,6 @@
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
-
-
-longs, lats, hover_texts = [],[],[]
-long = [-3.703790, 18.094423]
-lat = [40.416775, 42.650661]
-title = ['Madrid', 'Dubrovnik']
-
-longs.append(long)
-lats.append(lat)
-hover_texts.append(title)
-
-
 data = dict(type = 'choropleth',
             locations = ['spain', 'croatia', 'switzerland', 'britain', 'portugal', 'greece', 'bosnia', 'italy',
             'thailand', 'USA', 'indonesia'],
